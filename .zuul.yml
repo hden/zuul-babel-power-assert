@@ -1,0 +1,6 @@
+ui: mocha-bdd
+browserify:
+  - transform:
+      name: babelify
+      plugins:
+        - babel-plugin-espower

@@ -1,0 +1,37 @@
+{
+  "name": "zuul-babel-power-assert",
+  "version": "1.0.0",
+  "description": "Minimal setup for running browser tests with power-assert, ES6, and zuul.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "zuul --local 8080 --open -- test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hden/zuul-babel-power-assert.git"
+  },
+  "keywords": [
+    "zuul",
+    "ci",
+    "test",
+    "babel",
+    "es6",
+    "es2015",
+    "power-assert",
+    "assert"
+  ],
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/zuul-babel-power-assert/issues"
+  },
+  "homepage": "https://github.com/hden/zuul-babel-power-assert#readme",
+  "devDependencies": {
+    "babel-plugin-espower": "^1.0.0",
+    "babelify": "^6.3.0",
+    "power-assert": "^1.1.0",
+    "zuul": "^3.6.0"
+  }
+}
